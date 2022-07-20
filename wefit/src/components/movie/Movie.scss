@@ -1,0 +1,48 @@
+.Movie{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 4px;
+    width: 15rem;
+    height: fit-content;
+    color: rgb(31, 31, 31);
+
+    h1{
+        margin: 0;
+        font-size: 1.2rem;
+    }
+    
+    span{
+        display: block;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    button{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        background-color: #009EDD;
+        width: 100%;
+        border: 0;
+        border-radius: 4px;
+        padding: 0.8rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all ease-in-out .25s;
+
+        div{
+            font-weight: 400;
+        }
+        
+        span{
+            font-size: 0.85rem;
+        }
+    }
+
+    button:hover{
+        opacity: 0.8;
+    }
+}
